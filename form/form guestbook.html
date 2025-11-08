@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>Form-Test</title>
+  </head>
+  <body>
+    <center>
+      <b>Selamat Datang <br />di Halaman Guest Book</b>
+    </center>
+    <!-- 
+    center berfungsi untuk membuat paragraf ke tengah tampilan web 
+    br membaut newline 
+    -->
+
+    <form method="post" action="">
+      <!-- method atribut ini yang digunakan untuk menentukan cara html untuk mengirimkan isi input dari pengunjung dan berisi get/post 
+          action menetukan nama file yang akan di eksekusi setelah submit terklik ke action
+      -->
+
+      Nama anda:
+      <input type="text" size="10" maxlength="40" name="nama" /><br />
+      <!-- 
+          ini adalah field pertama 
+          type yang menetukan jenis field dan mendefinisikan field sebagai text , textarea , atau , password
+          di khasus ini Nama anda: di jadikan field text agar bisa di input oleh pengguna 
+          size = ukuran , maxlenght = panjang , br berfungsi membuat newline 
+     -->
+
+      Komentar anda:
+      <textarea rows="4" cols="20" name="Komentar"></textarea><br />
+      <!-- 
+            ini adalah field ke dua 
+            di khasus ini Komentar anda: di jadikan field textarea agar bisa membuat kolom 
+            untuk pengguna bisa menginput didalam text area tersebut
+            rows = membuat tinggi baris , cols = menentukan jumlah karakter horizontal (lebar dalam satuan karakter) yang bisa ditampilkan di kotak teks.
+    -->
+
+      <input type="submit" value="Kirim" />
+      <!-- 
+          ini adalah field ke tiga 
+          di khasus ini membuat input type sebagai submit button 
+          dan value adalah isi dari button tersebut sebagai kirim 
+          karena tidak ada action="" maka saat di pencet akan masuk directory file ini 
+          -->
+    </form>
+  </body>
+</html>
