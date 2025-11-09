@@ -13,26 +13,36 @@ Menggunakan:
 Tambahan kode di kontak.html 
 yaitu membuat sebuah teks masukan sederhana 
 
-<form>
-<form> digunakan untuk membuat sebuah formulir tempat pengguna mengisi data 
+&lt;form&gt;
+&lt;label for="Nama"&gt;Nama&lt;/label&gt;&lt;br&gt;
+&lt;input type="text" id="Nama"&gt;&lt;br&gt;
 
-<label for="Nama">Nama</label><br>
-<label> memberikan keterangan pada kolom input di bawahnya.
-Atribut for="Nama" menghubungkan label ini dengan elemen input yang memiliki id="Nama"
+&lt;label for="tanya"&gt;Pertanyaan:&lt;/label&gt;&lt;br&gt;
+&lt;textarea name="tanya" id="tanya" rows="10" cols="40"&gt;&lt;/textarea&gt;&lt;br&gt;
 
-<input type="text" for="Nama"><br>
-<input type="text"> membuat kolom teks satu baris untuk mengetik nama.
+&lt;input type="button" value="submit"&gt;
+&lt;/form&gt;
 
-<label for="tanya">Pertanyaan:</label><br>
-Label untuk kolom pertanyaan, dihubungkan dengan textarea yang memiliki id="tanya". 
 
-<textarea name="tanya" id="tanya" rows="10" cols="40"></textarea><br>
-<textarea> membuat area teks besar agar pengguna bisa menulis pertanyaan atau pesan panjang.
-Atribut rows menentukan tinggi area teks, cols menentukan lebarnya. 
+Penjelasan
 
-<input type="button" value="submit">
-Tombol untuk mengirim data formulir ke server.
+&lt;form&gt; digunakan untuk membuat formulir tempat pengguna mengisi data.
 
-</form>
-Penutup tag </form>, menandakan akhir dari formulir.
+&lt;label for="Nama"&gt;Nama&lt;/label&gt; memberikan keterangan pada kolom input di bawahnya.
+Atribut for="Nama" menghubungkan label ini dengan elemen input yang memiliki id="Nama".
+
+&lt;input type="text" id="Nama"&gt; membuat kolom teks satu baris untuk mengetik nama.
+
+&lt;label for="tanya"&gt;Pertanyaan:&lt;/label&gt; adalah label untuk kolom pertanyaan, dihubungkan dengan textarea yang memiliki id="tanya".
+
+&lt;textarea name="tanya" id="tanya" rows="10" cols="40"&gt;&lt;/textarea&gt; membuat area teks besar agar pengguna bisa menulis pertanyaan atau pesan panjang.
+
+rows menentukan tinggi area teks
+
+cols menentukan lebarnya
+Tag &lt;br&gt; berfungsi untuk membuat newline.
+
+&lt;input type="button" value="submit"&gt; adalah tombol untuk mengirim data formulir ke server.
+
+&lt;/form&gt; menandakan akhir dari formulir.
 
