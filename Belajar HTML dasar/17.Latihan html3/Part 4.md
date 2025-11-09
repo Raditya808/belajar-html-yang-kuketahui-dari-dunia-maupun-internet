@@ -1,12 +1,14 @@
-Part ke 3 dan 4 
+Part ke 3 dan 4
+Tambahan kode di Buku.html
 
-Tambahan kode di Buku.html 
-yaitu menggunakan 
-<tr></tr> → ini adalah table row, fungsinya mendefinisikan satu baris dalam sebuah tabel.
+Menggunakan:
 
-<td></td> → ini adalah table data, fungsinya mendefinisikan sebuah sel data (data cell) standar dalam sebuah tabel.
+&lt;tr&gt;&lt;/tr&gt; → ini adalah table row, fungsinya mendefinisikan satu baris dalam sebuah tabel.
 
-<th></th> → ini adalah table header, fungsinya sama seperti tag heading (h1, h2, h3) yaitu membuat teks tebal di bagian kepala tabel.
+&lt;td&gt;&lt;/td&gt; → ini adalah table data, fungsinya mendefinisikan sebuah sel data (data cell) standar dalam sebuah tabel.
+
+&lt;th&gt;&lt;/th&gt; → ini adalah table header, fungsinya sama seperti tag heading (h1, h2, h3) yaitu membuat teks tebal di bagian kepala tabel.
+
 
 Tambahan kode di kontak.html 
 yaitu membuat sebuah teks masukan sederhana 
@@ -26,7 +28,6 @@ Label untuk kolom pertanyaan, dihubungkan dengan textarea yang memiliki id="tany
 
 <textarea name="tanya" id="tanya" rows="10" cols="40"></textarea><br>
 <textarea> membuat area teks besar agar pengguna bisa menulis pertanyaan atau pesan panjang.
-<br> yang berfungsi untuk membuat newline 
 Atribut rows menentukan tinggi area teks, cols menentukan lebarnya. 
 
 <input type="button" value="submit">
