@@ -2,11 +2,11 @@ Part ke 3 dan 4
 
 Tambahan kode di Buku.html 
 yaitu menggunakan 
-- <tr></tr> (ini adalah table row fungsi nya mendefinisikan satu baris dalam sebuah table)
-- <td></td> (ini adalah table data fungsi nya mendefinisikan sebuah sel data (data cell) standar dalam sebuah table)
-- <th></th> (ini adalah table header fungsi nya sama seperti h1 h2 h3 dalam html yaitu membuat heading atau membuat table dalam bentuk teks tebal)
+<tr></tr> → ini adalah table row, fungsinya mendefinisikan satu baris dalam sebuah tabel.
 
+<td></td> → ini adalah table data, fungsinya mendefinisikan sebuah sel data (data cell) standar dalam sebuah tabel.
 
+<th></th> → ini adalah table header, fungsinya sama seperti tag heading (h1, h2, h3) yaitu membuat teks tebal di bagian kepala tabel.
 
 Tambahan kode di kontak.html 
 yaitu membuat sebuah teks masukan sederhana 
